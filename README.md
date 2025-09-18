@@ -8,9 +8,9 @@
 </h2>
 <div align="center">
     <p align="center">
-        <img src="docs/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
-        <img src="docs/fitdnu_logo.png" alt="AIoTLab Logo" width="180"/>
-        <img src="docs/dnu_logo.png" alt="DaiNam University Logo" width="200"/>
+        <img src="aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
+        <img src="fitdnu_logo.png" alt="AIoTLab Logo" width="180"/>
+        <img src="dnu_logo.png" alt="DaiNam University Logo" width="200"/>
     </p>
 
 [![AIoTLab](https://img.shields.io/badge/AIoTLab-green?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
@@ -64,7 +64,7 @@ Không sử dụng thư viện bên ngoài, đảm bảo ứng dụng nhẹ và 
 
 ## 🚀 3. Hình ảnh các chức năng
 <p align="center">
-  <img src="docs/AnhAdminserver.jpg" alt="Ảnh 1" width="800"/>
+  <img src="AnhAdminserver.jpg" alt="Ảnh 1" width="800"/>
 </p>
 
 <p align="center">
@@ -72,14 +72,14 @@ Không sử dụng thư viện bên ngoài, đảm bảo ứng dụng nhẹ và 
 </p>
 
 <p align="center">
-  <img src="docs/AnhChatClient.jpg" alt="Ảnh 2" width="700"/>
+  <img src="AnhChatClient.jpg" alt="Ảnh 2" width="700"/>
 </p>
 <p align="center">
   <em> Hình 2: Giao diện chat Client </em>
 </p>
 
 <p align="center">
-  <img src="docs/AnhgiaodienchatgiuaClientServer.jpg" alt="Ảnh 3" width="450"/>
+  <img src="AnhgiaodienchatgiuaClientServer.jpg" alt="Ảnh 3" width="450"/>
 </p>
 <p align="center">
   <em> Hình 3: Ảnh giao diện chat giữa CLient và Server</em>
