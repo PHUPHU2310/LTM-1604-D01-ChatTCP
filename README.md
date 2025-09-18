@@ -98,28 +98,21 @@ Không sử dụng thư viện bên ngoài, đảm bảo ứng dụng nhẹ và 
 ### 📦 Cài đặt và triển khai
 
 #### Bước 1: Chuẩn bị môi trường
-1. **Kiểm tra Java**: Mở terminal/command prompt và chạy:
+**Clone project**: Mở terminal/command prompt và chạy:
    ```bash
-   java -version
-   javac -version
+ git clone https://github.com/PHUPHU2310/LTM-1604-D01-ChatTCP.git
+ cd LTM-1604-D01-ChatTCP
    ```
    Đảm bảo cả hai lệnh đều hiển thị phiên bản Java 8 trở lên.
-
-2. **Tải mã nguồn**: Sao chép thư mục `UngDungChat_TCP` chứa các file:
-   - `Server.java`
-   - `Client.java`
 
 #### Bước 2: Biên dịch mã nguồn
 1. **Mở terminal** và điều hướng đến thư mục chứa mã nguồn
 2. **Biên dịch các file Java**:
    ```bash
-   javac UngDungChat_TCP/*.java
+   javac -encoding UTF-8 -d bin src/DETAI1/*.java
+
    ```
-   Hoặc biên dịch từng file riêng lẻ:
-   ```bash
-   javac UngDungChat_TCP/Server.java
-   javac UngDungChat_TCP/Client.java
-   ```
+
 
 3. **Kiểm tra kết quả**: Nếu biên dịch thành công, sẽ tạo ra các file `.class` tương ứng.
 
@@ -127,7 +120,8 @@ Không sử dụng thư viện bên ngoài, đảm bảo ứng dụng nhẹ và 
 
 **Khởi động Server:**
 ```bash
-java UngDungChat_TCP.Server
+java -cp bin DETAI1.Server
+
 ```
 - Server sẽ khởi động trên port mặc định (1234)
 - Giao diện server sẽ hiển thị, sẵn sàng nhận kết nối từ client
@@ -135,10 +129,11 @@ java UngDungChat_TCP.Server
 
 **Khởi động Client:**
 ```bash
-java UngDungChat_TCP.Client
+java -cp bin DETAI1.ClientGUI
+
 ```
 - Mở terminal mới cho mỗi client
-- Nhập tên người dùng khi được yêu cầu (ví dụ: "Lanh", "Hoa", "Minh")
+- Nhập tên người dùng khi được yêu cầu (ví dụ: "Nam","Phu")
 - Client sẽ kết nối đến server và hiển thị giao diện chat
 
 ### 🚀 Sử dụng ứng dụng
