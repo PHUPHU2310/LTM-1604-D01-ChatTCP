@@ -94,7 +94,7 @@ Không sử dụng thư viện bên ngoài, đảm bảo ứng dụng nhẹ và 
 - **Môi trường phát triển**: IDE (IntelliJ IDEA, Eclipse, VS Code) hoặc terminal/command prompt
 - **Bộ nhớ**: Tối thiểu 512MB RAM
 - **Dung lượng**: Khoảng 10MB cho mã nguồn và file thực thi
-
+- **Port**: 12345
 ### 📦 Cài đặt và triển khai
 
 #### Bước 1: Chuẩn bị môi trường
@@ -123,18 +123,14 @@ Không sử dụng thư viện bên ngoài, đảm bảo ứng dụng nhẹ và 
 java -cp bin DETAI1.Server
 
 ```
-- Server sẽ khởi động trên port mặc định (1234)
-- Giao diện server sẽ hiển thị, sẵn sàng nhận kết nối từ client
-- Server sẽ tạo file `chat_history.txt` để lưu lịch sử chat
+
 
 **Khởi động Client:**
 ```bash
 java -cp bin DETAI1.ClientGUI
 
 ```
-- Mở terminal mới cho mỗi client
-- Nhập tên người dùng khi được yêu cầu (ví dụ: "Nam","Phu")
-- Client sẽ kết nối đến server và hiển thị giao diện chat
+
 
 ### 🚀 Sử dụng ứng dụng
 
