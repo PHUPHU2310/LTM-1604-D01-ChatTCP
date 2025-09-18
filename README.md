@@ -84,6 +84,7 @@ Không sử dụng thư viện bên ngoài, đảm bảo ứng dụng nhẹ và 
 <p align="center">
   <em> Hình 3: Ảnh giao diện chat giữa CLient và Server</em>
 </p>
+
 ## 📝 4. Hướng dẫn cài đặt và sử dụng
 
 ### 🔧 Yêu cầu hệ thống
