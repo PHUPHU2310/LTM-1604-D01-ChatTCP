@@ -94,7 +94,7 @@ Không sử dụng thư viện bên ngoài, đảm bảo ứng dụng nhẹ và 
 - **Môi trường phát triển**: IDE (IntelliJ IDEA, Eclipse, VS Code) hoặc terminal/command prompt
 - **Bộ nhớ**: Tối thiểu 512MB RAM
 - **Dung lượng**: Khoảng 10MB cho mã nguồn và file thực thi
-- **Port**: 12345
+- **Port**: 9000
 ### 📦 Cài đặt và triển khai
 
 #### Bước 1: Chuẩn bị môi trường
