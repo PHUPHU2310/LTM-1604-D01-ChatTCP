@@ -140,7 +140,7 @@ java -cp bin DETAI1.ClientGUI
 4. **Lịch sử chat**: Server tự động lưu tất cả tin nhắn vào file `chat_history.txt`
 5. **Ngắt kết nối**: Đóng cửa sổ client hoặc nhấn Ctrl+C để ngắt kết nối
 
-## Thông tin liên hệ  
+## 5. Thông tin liên hệ  
 Họ tên: Thiều Khánh Phú.
 Lớp: CNTT 16-04.
 Email: thieukhanhphu2310@gmail.com.
